@@ -12,8 +12,7 @@ info:
     name: LGPL
     url: 'https://www.apache.org/licenses/LICENSE-2.0.html'
 servers:
-  - description: Mock Store
-    url: 'https://stoplight.io/mocks/sprockets/mighty-api/5813214'
+  - description: ''
 paths:
   /pets:
     get:
