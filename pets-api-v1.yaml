@@ -12,7 +12,8 @@ info:
     name: LGPL
     url: 'https://www.apache.org/licenses/LICENSE-2.0.html'
 servers:
-  - description: ''
+  - description: Design Mock
+    url: 'https://stoplight.io/mocks/sprockets/petstore-api/5813214'
 paths:
   /pets:
     get:
