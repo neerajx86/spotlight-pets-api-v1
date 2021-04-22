@@ -1,0 +1,21 @@
+title: ExtinctPet
+type: object
+x-examples:
+  example-1:
+    id: 1
+    pet_type: Siberian Saber Tooth
+    extinction_date: 20 B.C.
+    nativity:
+      - Siberia
+      - Scandinavia
+properties:
+  id:
+    type: integer
+  pet_type:
+    type: string
+  extinction_date:
+    type: string
+  nativity:
+    type: array
+    items:
+      type: string
