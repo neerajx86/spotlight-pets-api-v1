@@ -15,7 +15,7 @@ servers:
   - description: Design Mock
     url: 'https://stoplight.io/mocks/sprockets/petstore-api/5813214'
 paths:
-  /pets:
+  /v2/pets:
     get:
       description: |
         Returns all pets from the system that the user has access to
@@ -90,7 +90,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
-  '/pets/{id}':
+  '/v1/pets/{id}':
     get:
       description: 'Returns a user based on a single ID, if the user does not have access to the pet'
       operationId: find pet by id
