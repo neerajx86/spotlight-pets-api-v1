@@ -135,6 +135,12 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
+  /v2/pets/healthcheck:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-v2-pets-healthcheck
 components:
   schemas:
     Pet:
