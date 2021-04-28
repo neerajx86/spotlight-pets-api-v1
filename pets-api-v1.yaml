@@ -90,7 +90,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
-  '/v1/pets/{id}':
+  '/v2/pets/{id}':
     get:
       description: 'Returns a user based on a single ID, if the user does not have access to the pet'
       operationId: find pet by id
