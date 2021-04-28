@@ -15,7 +15,7 @@ servers:
   - description: Design Mock
     url: 'https://stoplight.io/mocks/sprockets/petstore-api/5813214'
 paths:
-  /v2/pets:
+  /v1/pets:
     get:
       description: |
         Returns all pets from the system that the user has access to
